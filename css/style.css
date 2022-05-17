@@ -1,0 +1,30 @@
+/* css styling */
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Orange F37E53 */
+/* Blue 6E90CA */
+
+/* styling card 1 */
+body .card{
+    border-radius: 30px;
+}
+body h3{
+    font-weight: 900;
+    color: #6E90CA;
+}
+h4{
+    font-size: 20px;
+    color: #6E90CA;
+    font-weight: 900;
+}
+
+#vertical-line{
+    border-left: 2px solid #6E90CA;
+    height: 80px;
+}
+
