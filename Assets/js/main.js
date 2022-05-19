@@ -1,30 +1,28 @@
 
 
-let Controller = {
+// let Controller = {
 
-    cls: (className) => document.getElementsByClassName(className),
+//     cls: (className) => document.getElementsByClassName(className),
 
-    querySelectors: (elem) => document.querySelector(elem),
+//     querySelectors: (elem) => document.querySelector(elem),
 
-    getElemtsID: (id) => document.getElementById(id),
+//     getElemtsID: (id) => document.getElementById(id),
 
-    removeClassName: (clname) => classList.remove(clname)
-    ,    // check time
-    checkTime: function () {
-        let today = new Date();
-        return today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-    },
-    DefaultsetTheme: (theme) => {
-        let elem = Controller.getElemtsID(theme)
-        elem.classList.remove("bg-white")
-        elem.classList.add("bg-dark")
-
-    }
-}
+//     removeClassName: (clname) => classList.remove(clname)
+//     ,    // check time
+//     checkTime: function () {
+//         let today = new Date();
+//         return today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+//     },
+//     DefaultsetTheme: (theme) => {
+//         let elem = Controller.getElemtsID(theme)
+//         elem.classList.remove("bg-white")
+//         elem.classList.add("bg-dark")
+//     }
+// }
 
 window.onload = (event) => {
-    Controller.DefaultsetTheme("card")
-    let elem = document.getElementsByClassName("text-dark")
-};
+  let body = document.getElementById('body')
+  let changeTheme = document.getElementById('customSwitch1')
+b};
 
-// console.log(Controller.checkTime())
