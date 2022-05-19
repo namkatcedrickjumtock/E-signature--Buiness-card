@@ -1,6 +1,7 @@
 /* css styling */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Montserrat:wght@300&family=Plus+Jakarta+Sans:wght@800&display=swap');
 
-body{
+body {
     margin: 0%;
     padding: 0%;
 }
@@ -9,21 +10,152 @@ body{
 /* Blue 6E90CA */
 
 /* styling card 1 */
-body .card{
+body .card {
     border-radius: 30px;
 }
-body h3{
+
+body h3 {
     font-weight: 900;
     color: #6E90CA;
+    font-family: 'Exo 2', sans-serif;
 }
-h4{
+
+h4 {
     font-size: 20px;
     color: #6E90CA;
-    font-weight: 900;
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;
+
 }
 
-#vertical-line{
+/* side icon style */
+#sideArrow {
+    max-height: 18.5em;
+}
+
+
+/* styling socials icons */
+#socials {
+    max-height: 2em;
+    max-width: 2em;
+}
+
+#vertical-line {
     border-left: 2px solid #6E90CA;
-    height: 80px;
+    height: 60px;
 }
 
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+        box-shadow: none;
+    }
+
+    .card {
+        margin: 2em 0em;
+        margin: 0em;
+        box-shadow: none;
+    }
+
+    #signaturePicture{
+        max-width: 15rem;
+    }
+    #card-body,#socials1{
+
+        padding-left: 1em;
+        margin: 0em 0em 0em 5em;
+    }
+    #sm-text{
+        font-size: 10px;
+        margin-top:2em;
+    }
+    #vertical-line {
+        border-left: 2px solid #6E90CA;
+        height: 50px;
+    }
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+        box-shadow: none;
+    }
+
+    .card {
+        margin: 0em;
+        margin: 0em;
+        box-shadow: none;
+    }
+
+    #signaturePicture{
+        max-width: 15rem;
+    }
+    #card-body,#socials1{
+
+        padding-left: 1em;
+        margin: 0em 0em 0em 5em;
+    }
+    #sm-text{
+        font-size: 10px;
+        margin-top:2em;
+    }
+    #vertical-line {
+        border-left: 2px solid #6E90CA;
+        height: 50px;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    body {
+        margin: 0%;
+        padding: 0%;
+        box-shadow: none;
+    }
+
+    .card {
+        margin: 0em;
+        margin: 0em;
+        box-shadow: none;
+        height: 80vh;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    body {
+        margin: 0%;
+        padding: 0%;
+        box-shadow: none;
+    }
+
+    .card {
+        margin: 0em;
+        margin: 0em;
+        box-shadow: none;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+        box-shadow: none;
+    }
+
+    .card {
+        margin: 0em;
+        margin: 0em;
+        box-shadow: none;
+    }
+}

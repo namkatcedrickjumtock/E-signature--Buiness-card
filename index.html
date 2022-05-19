@@ -45,57 +45,73 @@
 
 
   <!-- landscap card -->
-    <div class="card mx-auto  shadow-lg m-5    bg-white rounded" style="max-width: 600px;" >
+  <div class="card mx-auto   mb-5 bg-white rounded" style="max-width: 38em; ">
 
-      <div class="row no-gutters">
-
-        <div class="col-md-6">
-          <img src="Assets/images/Kuelap_Ayuk-Etta-Image.svg" alt="signature" class="img-fluid">
+    <!-- display only on small screen -->
+    <div class="row no-gutters py-3 d-lg-none d-md-none d-lg-block d-xl-none" id="headerSignature">
+      <div class="row">
+        <img src="Assets/images/Kuelap_Logo_horizontal.svg" alt="" class="img-fluid w-50 px-2 d-lg-none">
+        <div id="vertical-line" class="mx-">
         </div>
+        <h4 class="px-1" id="sm-text">Transforming Financial <br> Digital Services</h3>
+      </div>
+    </div>
 
-        <div class="col-md-2">
-          <img src="Assets/images/Kuelap_arrow.svg" alt="" class="img-fluid px-2">
+    <div class="row no-gutters">
+
+      <div class="col-md-6">
+        <img src="Assets/images/Kuelap_Ayuk-Etta-Image.svg" alt="signature" class="img-fluid d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block"
+          id="signaturePicture1">
+      </div>
+
+      <div class="col-md-2">
+        <img src="Assets/images/Kuelap_arrow.svg" alt="" class="img-fluid px-2" id="sideArrow">
+        <img src="Assets/images/Kuelap_Ayuk-Etta-Image.svg" alt="signature" class="img-fluid d-md-none"id="signaturePicture">
+        <!---show on small screen- -->
+      </div>
+
+      <div class="col-md-4">
+        <div class="card-body " id="card-body">
+          <h3 class="card-title" id="txt">Ayuk Etta</h3>
+          <h4 class="card-title" id="txt">CEO kuelap Africa</h4>
+          <p class=" text-wrap" id="txt">
+            <a href="tel:+237691376601" class="text-decoration-none text-dark font-weight-bold"> T: (+237)
+              691376601</a>
+            <a href="https://wa.me/691376601" class="text-decoration-none text-dark font-weight-bold"> W: 691376601</a>
+            <a href="mailto:isaac.bolombo.@kuelap.africa" class="text-decoration-none text-dark font-weight-bold">
+              E:isaac.bolombo.@kuelap.africa | Yaunde Cameroon </a>
+          </p>
         </div>
+        <p id="socials1">
+          <a href="https://www.instagram.com/kuelap.africa/"> <img src="Assets/images/Instagram.svg" id="socials"
+              class="img-fluid w-25"></a>
+          <a href="https://m.facebook.com/kuelap.africa/"> <img src="Assets/images/Asset_34.svg" id="socials"
+              class="img-fluid w-25"></a>
+          <a href="https://www.linkedin.com/company/kuelap-africa/"> <img src="Assets/images/LinkedIn.svg" id="socials"
+              alt="" class="img-fluid w-25 h-25"></a>
+          <a href="https://twitter.com/Kuelap_Africa/"> <img src="Assets/images/Twitter.svg" alt="" id="socials"
+              class="img-fluid w-25 h-25"></a>
+        </p>
+      </div>
 
-        <div class="col-md-4">
-          <div class="card-body">
-
-            <h3 class="card-title" id="txt">Ayuk Etta</h3>
-            <h4 class="card-title" id="txt">CEO kuelap Africa</h4>
-
-            <p class="card-text" id="txt"><a href="#" class="text-decoration-none text-dark font-weight-bold"> T: (+237)
-                691376601</a></p>
-
-            <p class="card-text" id="txt"><a href="#" class="text-decoration-none text-dark font-weight-bold"> W: 691376601</a>
-            </p>
-
-            <p class="card-text" id="txt"><a href="mailto:isaac.bolombo.@kuelap.africa " class="text-decoration-none text-dark font-weight-bold">
-                E:isaac.bolombo.@kuelap.africa  | Yaunde Cameroon </a>
-              </p>
-
-            <div class="row no-gutters">
-                <a href="https://www.instagram.com/kuelap.africa/"> <img src="Assets/images/Instagram.svg" alt="" class="img-fluid w-25 h-25"></a>
-              <a href="https://twitter.com/Kuelap_Africa"> <img src="Assets/images/Asset_34.svg" alt="" class="img-fluid w-25 h-25"></a>
-              <a href="https://www.linkedin.com/company/kuelap-africa/"> <img src="Assets/images/LinkedIn.svg" alt="" class="img-fluid w-25 h-25"></a>
-              <a href="https://m.facebook.com/kuelap.africa"> <img src="Assets/images/Twitter.svg" alt="" class="img-fluid w-25 h-25"></a>
-            </div> 
-          </div>
+      <!-- footer signature -->
+      <div class="container d-none d-sm-block py-4" id="footerSignature">
+        <div class="row">
+          <img src="Assets/images/Kuelap_Logo_horizontal.svg" alt="" class="img-fluid w-50 px-2">
+          <div id="vertical-line" class="mt-5"></div>
+          <h4 class="py-5 px-2">Transforming Financial <br> Digital Services</h3>
         </div>
       </div>
-      <!-- <div class="row no-gutters">
-        <img src="Assets/images/Kuelap_Logo_horizontal.svg" alt="" class="img-fluid w-50 py-2 mb-2">
-        <div id="vertical-line" class="mx-4 py-2"></div>
-        <h4 class="my-4 mx-2">Transforming Financial <br> Digital Services</h3>
-      </div> -->
-  </div>
-  <!-- card one ends here -->
+
+    </div>
+    <!-- card one ends here -->
 
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-  <script src="Assets/js/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="Assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

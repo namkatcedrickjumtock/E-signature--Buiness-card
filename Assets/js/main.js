@@ -1,28 +1,13 @@
+// helper functions
+ let getElementId = (id) => document.getElementById(id)
+ let getElementName = (name) => document.getElementsByClassName(name)
+  let getELementByQuery = (query) => document.querySelectorAll(query)
 
 
-// let Controller = {
 
-//     cls: (className) => document.getElementsByClassName(className),
-
-//     querySelectors: (elem) => document.querySelector(elem),
-
-//     getElemtsID: (id) => document.getElementById(id),
-
-//     removeClassName: (clname) => classList.remove(clname)
-//     ,    // check time
-//     checkTime: function () {
-//         let today = new Date();
-//         return today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-//     },
-//     DefaultsetTheme: (theme) => {
-//         let elem = Controller.getElemtsID(theme)
-//         elem.classList.remove("bg-white")
-//         elem.classList.add("bg-dark")
-//     }
-// }
-
+// function to get elements by Id from Dom
 window.onload = (event) => {
-  let body = document.getElementById('body')
-  let changeTheme = document.getElementById('customSwitch1')
-b};
-
+  body.addEventListener('click', (even) =>{
+getElementId('body')
+  })
+};
