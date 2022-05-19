@@ -64,15 +64,12 @@ h4 {
         max-width: 15rem;
     }
     #card-body,#socials1{
-
         padding-left: 1em;
         margin: 0em 0em 0em 5em;
     }
     #sm-text{
-        font-size: 10px;
+        font-size: 15px;
         margin-top:2em;
-    }
-    #vertical-line {
         border-left: 2px solid #6E90CA;
         height: 50px;
     }
@@ -91,6 +88,7 @@ h4 {
         margin: 0em;
         margin: 0em;
         box-shadow: none;
+        height: 100%;
     }
 
     #signaturePicture{

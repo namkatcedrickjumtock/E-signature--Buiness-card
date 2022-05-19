@@ -35,7 +35,7 @@
       </ul>
       <form class="form-inline my-2 my-lg-0 mx-2">
         <div class="custom-control custom-switch">
-          <input type="checkbox" class="custom-control-input" id="customSwitch1">
+          <input type="checkbox" class="custom-control-input" id="customSwitch1" onclick="changeTheme()">
           <label class="custom-control-label" for="customSwitch1">Theme</label>
         </div>
       </form>
@@ -45,7 +45,7 @@
 
 
   <!-- landscap card -->
-  <div class="card mx-auto   mb-5 bg-white rounded" style="max-width: 38em; ">
+  <div class="card mx-auto   mb-5 bg-white rounded" style="max-width: 38em; " id="card">
 
     <!-- display only on small screen -->
     <div class="row no-gutters py-3 d-lg-none d-md-none d-lg-block d-xl-none" id="headerSignature">
@@ -60,7 +60,7 @@
     <div class="row no-gutters">
 
       <div class="col-md-6">
-        <img src="Assets/images/Kuelap_Ayuk-Etta-Image.svg" alt="signature" class="img-fluid d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block"
+        <img src="Assets/images/Kuelap_Ayuk-Etta-Image.svg" alt="signature" class="  d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block"
           id="signaturePicture1">
       </div>
 
@@ -95,7 +95,7 @@
       </div>
 
       <!-- footer signature -->
-      <div class="container d-none d-sm-block py-4" id="footerSignature">
+      <div class="container d-none d-sm-block py-1" id="footerSignature">
         <div class="row">
           <img src="Assets/images/Kuelap_Logo_horizontal.svg" alt="" class="img-fluid w-50 px-2">
           <div id="vertical-line" class="mt-5"></div>
